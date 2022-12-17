@@ -10,9 +10,9 @@ export default function Header({ fixed }) {
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                         <a
                             className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap  text-white"
-                            href="#pablo"
+                            href="#"
                         >
-                            fee calculator
+                            PayPal fee calculator
                         </a>
                         <button
                             className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -33,20 +33,14 @@ export default function Header({ fixed }) {
                     >
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                            
+                           
+                            
                             <li className="nav-item">
                                 <a
                                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                                    href="#about"
+                                    href="#stepstocalculatepaypalfee"
                                 >
-                                    <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2">About</span>
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a
-                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                                    href="#privacypolicy"
-                                >
-                                    <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2">privacypolicy</span>
+                                    <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2"> How to Calculate PayPal fee ?</span>
                                 </a>
                             </li>
                             
