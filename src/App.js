@@ -1,6 +1,6 @@
 import Header from './components/Header';
-import PayPalFeeCalculator from './components/PayPalFeeCalculator';
-import StripeFeeCalculator from './components/StripeFeeCalculator';
+import BmiCalculator from './components/BmiCalculator';
+
 import Footer from './components/Footer';
 import Privacy from './Privacy';
 
@@ -12,24 +12,24 @@ import {
 } from "react-router-dom";
 import About from './About';
 
+
 function App() {
   return (
     <div className="">
       <BrowserRouter>
         <Header/>
         <Routes>
-          <Route path={"/paypalfeecalculator"} element={<PayPalFeeCalculator/>}/>
-          <Route path={"/stripefeecalculator"} element={<StripeFeeCalculator/>}/>
+          <Route path={"/bmicalculator"} element={< BmiCalculator />}/>
           <Route path={"/privacyandpolicy"} element={<Privacy/>}/>
           <Route path={"/about"} element={<About/>}/>
-          <Route path={"/"} element={<PayPalFeeCalculator/>}/>
+          <Route path={"/"} element={< BmiCalculator/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
       {/* header  */}
     
       {/* feeCalculator  */}
-      {/* <PayPalFeeCalculator /> */}
+      {/* <BmiCalculator /> */}
   
       {/* footer  */}
     </div>

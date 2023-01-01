@@ -13,14 +13,9 @@ export default function Header({ fixed }) {
                             className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap  text-white"
                            
                         >
-                            <Link to={"/"}>PayPal</Link>
+                            <Link to={"/"}>💆BMI (Body Mass Index)</Link>
                         </p>
-                        <p
-                            className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap  text-white"
-                           
-                        >
-                            <Link to={"/stripefeecalculator"}>Stripe</Link>
-                        </p>
+                       
                         
                         <button
                             className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
