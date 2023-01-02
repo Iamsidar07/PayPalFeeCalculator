@@ -1,6 +1,5 @@
 import Header from './components/Header';
 import BmiCalculator from './components/BmiCalculator';
-
 import Footer from './components/Footer';
 import Privacy from './Privacy';
 
